@@ -1,0 +1,89 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/*Navbar CSS*/
+
+  /*Navbar*/
+  .navbar{
+   background-color: #a0f;
+    color: #fff !important;
+  }
+
+  .nav-link{
+    color: #fff !important;
+  }
+
+  .navbar:hover, .nav-link:hover{
+    color: #0fa !important;
+  }
+
+  .navbar-brand {
+    color:#fff !important
+  }
+
+.btn{
+  color: #fff !important;
+}
+
+  /*Dropdown Menu*/
+  .dropdown-item{
+    color: #fff !important;
+  }
+  .dropdown-item:hover{
+    background-color: #80d !important;
+    color:#ddd !important;
+  }
+  .dropdown-menu{
+   background-color: #a0f !important;
+  }
+
+/*Carousel*/
+.carousel-caption {
+  background-color: #0009;
+  width: 50%;
+ margin: auto;
+}
+
+/*Container*/
+.fa-row{
+  background-color: #a0f;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.fa-row:hover{
+  color:#0fd;
+}
+
+.fab{
+  font-size: 60px;
+}
+
+.fab:hover{
+  color: #09f;
+}
+
+.my-google-font{
+  font-size: 50px;
+  font-family: Kaushan Script;
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    display: none;
+  }
+}
+
+.footer-row{
+  background-color: #a0f;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+.video-row{
+  text-allign: center;
+}

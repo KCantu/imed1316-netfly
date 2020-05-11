@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up Form</title>
+  
+  <!--Jquery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  
+  <!--CSS Instyle-->
+  <style>
+   .my-form{
+    margin: 3px;
+  }
+  </style>
+</head>
+<body>
+  
+  <h1>Sign Up Form</h1>
+  <form method="post" netlify>
+    Your Name: <input class="my-form" type="text" name="your_name" value="" /><br />
+    Your Email: <input class="my-form" type="email" name="email" value="" required="required"/><br />
+    
+    Gender: <input class="my-form" type="radio" name="gender" value="female" required="required"/>Female
+            <input class="my-form" type="radio" name="gender" value="male" />Male <br />   
+    T-shirt size:
+    <select id="t-size" class="my-form" name="t_size" required="required">
+      <option value=""> Pick a shirt size</option>
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+      <option value="other">Other</option>
+    </select> 
+    <br />
+    Other: <input id="other" class="my-form" type="text" name="other" disabled />
+    <br />
+    <p>Time(s) of day you would like to volunteer</p>
+    <input class="my-form" type="checkbox" name="v_time" value-"morning" /> Morning
+    <input class="my-form" type="checkbox" name="v_time" value-"afternoon" /> Afternoon
+    <input class="my-form" type="checkbox" name="v_time" value-"evening" />Evening
+    
+    <p>Additional Comments</p>
+    <textarea name="comments" cols="50" rows="5"></textarea>
+    
+    <br />
+    <input type="submit" name="submit" value="Register">
+  </form>
+  
+  <!-- Scripts -->
+ <script src="scripts/my-scripts-form.js"></script>
+</body>
+</html>
